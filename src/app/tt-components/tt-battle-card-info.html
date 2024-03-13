@@ -1,0 +1,16 @@
+<mat-card class="clickable" matRipple (click)="onClick()">
+    <mat-card-header>
+      <div mat-card-avatar class="mob-gif">
+        <img mat-card-image src="https://talontales.com/panel/data/monsters/{{ mob_id }}.gif" alt="{{ mob_name }}">
+      </div>
+      <mat-card-title-group>
+        <mat-card-title>{{ mob_name }}</mat-card-title>
+        <mat-card-subtitle>Total received damage : {{ damage_received }} </mat-card-subtitle>
+      </mat-card-title-group>
+      <mat-card-title-group class="right">
+        <mat-card-title>{{ mvp_player }} [ {{ mvp_job }} ]</mat-card-title>
+        <mat-card-subtitle>Skill spam : {{ mvp_skill_spam }} / second </mat-card-subtitle>
+      </mat-card-title-group>
+    </mat-card-header>
+</mat-card>
+  

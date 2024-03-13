@@ -1,0 +1,8 @@
+<h1>Battle Session #{{count()}}</h1>
+<div *ngFor="let mob of battle_data() | keyvalue">
+    <tt-battle-card-info
+        [mob_id]="mob.value.job"
+        [mob_name]="mob.key"
+        [damage_dealers]="mob.value.damage_dealers"
+        [damage_received]="mob.value.damage_received"></tt-battle-card-info>
+</div>

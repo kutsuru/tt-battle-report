@@ -1,0 +1,34 @@
+<h2>Single File Upload</h2>
+
+<input type="file" class="file-input" (change)="onFileSelected($event)" accept=".rrf"/>
+
+<div *ngIf="selected_file">
+  <div class="file-info">
+    File details:
+    <ul>
+      <li>Name: {{selected_file.name}}</li>
+      <li>Type: {{selected_file.type}}</li>
+      <li>Size: {{selected_file.size}} bytes</li>
+    </ul>
+    </div>
+
+  <button (click)="onUpload()">Upload the file</button>
+
+  <div [ngSwitch]="status">
+    <p *ngSwitchCase="'uploading'">⏳ Uploading...</p>
+    <p *ngSwitchCase="'success'">✅ Done!</p>
+    <p *ngSwitchCase="'fail'">❌ Error!</p>
+    <p *ngSwitchDefault>😶 Waiting to upload...</p>
+  </div>
+</div>
+<!--
+<div class="progress">
+    <mat-progress-bar class="progress-bar" mode="determinate"
+                      [value]="upload_progress" *ngIf="upload_progress">
+  
+    </mat-progress-bar>
+  
+    <mat-icon class="cancel-upload" (click)="cancelUpload()" 
+              *ngIf="upload_progress">delete_forever</mat-icon>
+  
+  </div> -->

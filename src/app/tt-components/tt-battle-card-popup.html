@@ -1,0 +1,24 @@
+<mat-dialog-actions>
+  <button mat-icon-button class="close-button" [mat-dialog-close]="true">
+    <mat-icon class="close-icon" color="warn">close</mat-icon>
+  </button>
+</mat-dialog-actions>
+
+
+<h1 mat-dialog-title>Battle Details<h1>
+<mat-dialog-content fxLayout="column">
+  <div *ngFor="let player of damage_dealers | keyvalue">
+    <mat-grid-list cols="4" rowHeight="50px">
+      <mat-grid-tile [colspan]="3" [rowspan]="1"> {{ player.key }}</mat-grid-tile>
+      <mat-grid-tile [colspan]="1" [rowspan]="2">
+        <div class="spinner-container">
+          <div class="spinner-background"> {{ player.value.percentage }} %</div>
+          <mat-progress-spinner color="primary" mode="determinate" [value]="player.value.percentage">
+          </mat-progress-spinner>
+        </div>
+      </mat-grid-tile>
+      <mat-grid-tile [colspan]="1" [rowspan]="1"> {{ player.value.job }}</mat-grid-tile>
+      <mat-grid-tile [colspan]="2" [rowspan]="1"> {{ player.value.skill_spam }}</mat-grid-tile>
+    </mat-grid-list>
+  </div>
+</mat-dialog-content>
