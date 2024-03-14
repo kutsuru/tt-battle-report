@@ -5,11 +5,11 @@
       </div>
       <mat-card-title-group>
         <mat-card-title>{{ mob_name }}</mat-card-title>
-        <mat-card-subtitle>Total received damage : {{ damage_received }} </mat-card-subtitle>
+        <mat-card-subtitle>Total received damage : {{ damage_received | number:''}} </mat-card-subtitle>
       </mat-card-title-group>
       <mat-card-title-group class="right">
         <mat-card-title>{{ mvp_player }} [ {{ mvp_job }} ]</mat-card-title>
-        <mat-card-subtitle>Skill spam : {{ mvp_skill_spam }} / second </mat-card-subtitle>
+        <mat-card-subtitle>Skill spam : {{ mvp_skill_spam | number:'1.2-2' }} / second </mat-card-subtitle>
       </mat-card-title-group>
     </mat-card-header>
 </mat-card>

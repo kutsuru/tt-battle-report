@@ -8,6 +8,6 @@ export class TTPopupService {
 
   constructor(private dialog: MatDialog) {}
   open(data: any) {
-    return this.dialog.open(TtBattleCardPopup, {data: data, width: '1000px'});
+    return this.dialog.open(TtBattleCardPopup, {data: data, width: '1500px'});
   }
 }

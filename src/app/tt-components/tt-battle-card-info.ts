@@ -1,8 +1,9 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { TTPopupService } from '../tt-services/tt-popup-service';
 import { DamageDealers } from '../tt-services/tt-typedef';
+import { DecimalPipe } from '@angular/common';
 
 @Component({
   selector: 'tt-battle-card-info',
@@ -12,6 +13,7 @@ import { DamageDealers } from '../tt-services/tt-typedef';
   imports: [
     MatButtonModule,
     MatCardModule,
+    DecimalPipe,
   ],
   providers: [
     TTPopupService,
@@ -44,6 +46,6 @@ export class TtBattleCardInfo implements OnInit {
   }
 
   onClick(): void {
-    this._cardPopup.open(this.damage_dealers);
+    this._cardPopup.open({'name': this.mob_name, 'damage_dealers': this.damage_dealers});
   }
 } 
