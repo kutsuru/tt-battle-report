@@ -1,34 +1,27 @@
-<h2>Single File Upload</h2>
+<div class="upload-container"
+     (click)="onClick()">
+  <p class="icon"><mat-icon>cloud_upload</mat-icon></p>
+  <p class="title">Click or drag (Not implemented yet) file to this area to upload</p>
+  <p class="desc">Support for a single Ragnarok Replay File (RRF)</p>
+</div>
 
-<input type="file" class="file-input" (change)="onFileSelected($event)" accept=".rrf"/>
+<input type="file" id="file_upload" class="file-input" (change)="onFileSelected($event)" accept="{{accept}}"/>
 
-<div *ngIf="selected_file">
-  <div class="file-info">
-    File details:
-    <ul>
-      <li>Name: {{selected_file.name}}</li>
-      <li>Type: {{selected_file.type}}</li>
-      <li>Size: {{selected_file.size}} bytes</li>
-    </ul>
-    </div>
-
-  <button (click)="onUpload()">Upload the file</button>
-
+<ul *ngIf="selected_file">
+  <mat-progress-bar [value]="upload_progress"></mat-progress-bar>
+  <span class="file-label">
+  {{selected_file.name}} 
+  <a title="Retry" (click)="onRetry()" *ngIf="allow_retry">
+  <mat-icon>refresh</mat-icon></a>
+  <a title="Cancel" (click)="onCancel()" *ngIf="allow_cancel">
+  <mat-icon>cancel</mat-icon></a>
+  </span>
+  
   <div [ngSwitch]="status">
     <p *ngSwitchCase="'uploading'">⏳ Uploading...</p>
     <p *ngSwitchCase="'success'">✅ Done!</p>
     <p *ngSwitchCase="'fail'">❌ Error!</p>
     <p *ngSwitchDefault>😶 Waiting to upload...</p>
   </div>
-</div>
-<!--
-<div class="progress">
-    <mat-progress-bar class="progress-bar" mode="determinate"
-                      [value]="upload_progress" *ngIf="upload_progress">
-  
-    </mat-progress-bar>
-  
-    <mat-icon class="cancel-upload" (click)="cancelUpload()" 
-              *ngIf="upload_progress">delete_forever</mat-icon>
-  
-  </div> -->
+</ul>
+

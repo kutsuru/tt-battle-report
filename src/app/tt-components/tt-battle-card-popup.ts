@@ -11,7 +11,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 @Component({
   selector: 'tt-battle-card-popup',
   templateUrl: './tt-battle-card-popup.html',
-  styleUrls: ['./tt-battle-card-popup.css'],
+  styleUrls: ['./tt-battle-card-popup.scss'],
   standalone: true,
   imports: [
     MatButtonModule,
