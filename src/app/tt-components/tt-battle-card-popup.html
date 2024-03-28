@@ -1,26 +1,28 @@
-<mat-dialog-actions>
-  <button mat-icon-button class="close-button" [mat-dialog-close]="true">
+<mat-dialog-actions align="end">
+  <button mat-icon-button [mat-dialog-close]="true">
     <mat-icon class="close-icon" color="warn">close</mat-icon>
   </button>
 </mat-dialog-actions>
 
-
-<h1 mat-dialog-title>Battle Details - {{ mob_name }}<h1>
+<div mat-dialog-title class="popup-title">
+  <div><img class="mob-img" src="https://talontales.com/panel/data/monsters/{{ mob_id }}.gif" alt="{{ mob_name }}"></div>
+  <div><h3>Battle Details - {{mob_name}}</h3></div>
+</div>
 <mat-dialog-content fxLayout="column">
-  <div *ngFor="let player of damage_dealers | keyvalue">
-    <mat-grid-list cols="6" rowHeight="50px" class="text-left">
-      <mat-grid-tile [colspan]="5" [rowspan]="1"> {{ player.key }}</mat-grid-tile>
-      <mat-grid-tile [colspan]="1" [rowspan]="2">
-        <div class="spinner-container">
-          <div class="spinner-background"> {{ player.value.percentage | number:'1.2-2' }} %</div>
-          <mat-progress-spinner color="primary" mode="determinate" [value]="player.value.percentage">
+  @for (player of damage_dealers | keyvalue; track $index) {
+    <div class="grid-container mat-elevation-z1">
+      <div class="grid-col1">
+        <div class="player">{{player.key}}</div>
+        <div class="sub-info"><span class="mat-caption">Job</span><br>{{ player.value.job }}</div>
+        <div class="sub-info"><span class="mat-caption">Damage</span><br>{{ player.value.damage | number:'' }}</div>
+        <div class="sub-info"><span class="mat-caption">Skills used</span><br>{{ player.value.skill_used }}</div>
+        <div class="sub-info"><span class="mat-caption">Skill spam</span><br>{{ player.value.skill_spam | number:'1.2-2' }} / second</div>
+      </div>
+      <div class="grid-col2">
+        <div class="spinner-background mat-caption"> {{ player.value.percentage | number:'1.1-1' }} %</div>
+          <mat-progress-spinner color="primary" mode="determinate" [value]="player.value.percentage" [diameter]="60">
           </mat-progress-spinner>
-        </div>
-      </mat-grid-tile>
-      <mat-grid-tile [colspan]="1" [rowspan]="1"> Job: {{ player.value.job }}</mat-grid-tile>
-      <mat-grid-tile [colspan]="1" [rowspan]="1"> Damage: {{ player.value.damage | number:'' }}</mat-grid-tile>
-      <mat-grid-tile [colspan]="1" [rowspan]="1"> Skill used: {{ player.value.skill_used }}</mat-grid-tile>
-      <mat-grid-tile [colspan]="1" [rowspan]="1"> Skill spam: {{ player.value.skill_spam | number:'1.2-2' }} / second</mat-grid-tile>
-    </mat-grid-list>
-  </div>
+      </div>
+    </div>
+  }
 </mat-dialog-content>

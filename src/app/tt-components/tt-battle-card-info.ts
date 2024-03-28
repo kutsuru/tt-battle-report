@@ -46,6 +46,6 @@ export class TtBattleCardInfo implements OnInit {
   }
 
   onClick(): void {
-    this._cardPopup.open({'name': this.mob_name, 'damage_dealers': this.damage_dealers});
+    this._cardPopup.open({'name': this.mob_name, 'damage_dealers': this.damage_dealers, 'id': this.mob_id});
   }
 } 

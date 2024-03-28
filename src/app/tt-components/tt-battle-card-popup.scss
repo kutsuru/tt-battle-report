@@ -4,25 +4,64 @@
 
 .spinner-background {
     position: absolute;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
     overflow: hidden;
     border-color: rgba(103, 58, 183, 0.12);
     border-radius: 50%;
     border-style: solid;
-    border-width: 10px;
+    border-width: 5px;
 }
 
 .text-left {
     text-align: left;
 }
 
-.close-button {
-    float: right;
- }
-
 .close-icon {
     transition: 1s ease-in-out;
+}
+
+.popup-title {
+    display: flex;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.mob-img {
+    max-height: 100px;
+}
+
+.grid-container {
+    display: flex;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.grid-col1 {
+    flex: 1 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-col2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.player {
+    flex: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sub-info {
+    flex: 1;
 }

@@ -18,6 +18,9 @@ $tt-battle-report-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400
 // The warn palette is optional (defaults to red).
 $tt-battle-report-warn: mat.define-palette(mat.$red-palette);
 
+// Typography
+$tt-battle-report-typo: mat.define-typography-config();
+
 // Create the theme object. A theme consists of configurations for individual
 // theming systems such as "color" or "typography".
 $tt-battle-report-theme: mat.define-light-theme((
@@ -26,7 +29,7 @@ $tt-battle-report-theme: mat.define-light-theme((
     accent: $tt-battle-report-accent,
     warn: $tt-battle-report-warn,
   ),
-  typography: mat.define-typography-config(),
+  typography: $tt-battle-report-typo,
   density: 0
 ));
 
@@ -34,4 +37,5 @@ $tt-battle-report-theme: mat.define-light-theme((
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
 @include mat.all-component-themes($tt-battle-report-theme);
+@include mat.typography-hierarchy($tt-battle-report-typo);
 
