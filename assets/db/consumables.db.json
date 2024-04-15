@@ -1,0 +1,1078 @@
+{
+    "1750": {
+        "name": "Arrow",
+        "market_price": 1
+    },
+    "1751": {
+        "name": "Silver Arrow",
+        "market_price": 1
+    },
+    "1752": {
+        "name": "Fire Arrow",
+        "market_price": 1
+    },
+    "1753": {
+        "name": "Steel Arrow",
+        "market_price": 1
+    },
+    "1754": {
+        "name": "Crystal Arrow",
+        "market_price": 1
+    },
+    "1755": {
+        "name": "Wind Arrow",
+        "market_price": 1
+    },
+    "1756": {
+        "name": "Stone Arrow",
+        "market_price": 1
+    },
+    "1757": {
+        "name": "Immaterial Arrow",
+        "market_price": 200
+    },
+    "1758": {
+        "name": "Stun Arrow",
+        "market_price": 1
+    },
+    "1759": {
+        "name": "Frozen Arrow",
+        "market_price": 1
+    },
+    "1760": {
+        "name": "Flash Arrow",
+        "market_price": 1
+    },
+    "1761": {
+        "name": "Curse Arrow",
+        "market_price": 1
+    },
+    "1762": {
+        "name": "Rusty Arrow",
+        "market_price": 1
+    },
+    "1763": {
+        "name": "Poison Arrow",
+        "market_price": 1
+    },
+    "1764": {
+        "name": "Sharp Arrow",
+        "market_price": 1
+    },
+    "1765": {
+        "name": "Oridecon Arrow",
+        "market_price": 1
+    },
+    "1766": {
+        "name": "Arrow of Counter Evil",
+        "market_price": 1
+    },
+    "1767": {
+        "name": "Arrow of Shadow",
+        "market_price": 1
+    },
+    "1770": {
+        "name": "Iron Arrow",
+        "market_price": 1
+    },
+    "1772": {
+        "name": "Holy Arrow",
+        "market_price": 1
+    },
+    "1773": {
+        "name": "Elven Arrow",
+        "market_price": 1
+    },
+    "1774": {
+        "name": "Hunting Arrow",
+        "market_price": 1
+    },
+    "1769": {
+        "name": "Mute Arrow",
+        "market_price": 1
+    },
+    "1768": {
+        "name": "Sleep Arrow",
+        "market_price": 1
+    },
+    "13200": {
+        "name": "Bullet",
+        "market_price": 1
+    },
+    "13201": {
+        "name": "Silver Bullet",
+        "market_price": 1
+    },
+    "13202": {
+        "name": "Bloody Shell",
+        "market_price": 1
+    },
+    "13208": {
+        "name": "Fire Bullet",
+        "market_price": 1
+    },
+    "13209": {
+        "name": "Wind Bullet",
+        "market_price": 1
+    },
+    "13210": {
+        "name": "Earth Bullet",
+        "market_price": 1
+    },
+    "13211": {
+        "name": "Water Bullet",
+        "market_price": 1
+    },
+    "13213": {
+        "name": "Shadow Bullet",
+        "market_price": 1
+    },
+    "13214": {
+        "name": "Immaterial Bullet",
+        "market_price": 1
+    },
+    "13212": {
+        "name": "Gong Bug",
+        "market_price": 1
+    },
+    "13203": {
+        "name": "Flare Sphere",
+        "market_price": 1
+    },
+    "13204": {
+        "name": "Lightning Sphere",
+        "market_price": 1
+    },
+    "13205": {
+        "name": "Poison Sphere",
+        "market_price": 1
+    },
+    "13206": {
+        "name": "Blind Sphere",
+        "market_price": 1
+    },
+    "13207": {
+        "name": "Freezing Sphere",
+        "market_price": 1
+    },
+    "13250": {
+        "name": "Shuriken",
+        "market_price": 1
+    },
+    "13251": {
+        "name": "Raincloud Shuriken",
+        "market_price": 1
+    },
+    "13252": {
+        "name": "Flash Shuriken",
+        "market_price": 1
+    },
+    "13253": {
+        "name": "Sharp Leaf Shuriken",
+        "market_price": 1
+    },
+    "13254": {
+        "name": "Thorn Needle Shuriken",
+        "market_price": 1
+    },
+    "13291": {
+        "name": "Starfish",
+        "market_price": 1
+    },
+    "13255": {
+        "name": "Icicle Kunai",
+        "market_price": 1
+    },
+    "13256": {
+        "name": "Black Earth Kunai",
+        "market_price": 1
+    },
+    "13257": {
+        "name": "High Wind Kunai",
+        "market_price": 1
+    },
+    "13258": {
+        "name": "Heat Wave Kunai",
+        "market_price": 1
+    },
+    "13529": {
+        "name": "Fell Poison Kunai",
+        "market_price": 1
+    },
+    "13292": {
+        "name": "Dried Squid",
+        "market_price": 1
+    },
+    "13293": {
+        "name": "Flying Fish",
+        "market_price": 1
+    },
+    "12041": {
+        "name": "Fried Grasshopper Legs",
+        "market_price": 1
+    },
+    "12042": {
+        "name": "Seasoned Sticky Webfoot",
+        "market_price": 1
+    },
+    "12043": {
+        "name": "Bomber Steak",
+        "market_price": 1
+    },
+    "12044": {
+        "name": "Herb Marinade Beef",
+        "market_price": 1
+    },
+    "12045": {
+        "name": "Lutie Lady's Pancake",
+        "market_price": 1
+    },
+    "12071": {
+        "name": "Shiny Marinade Beef",
+        "market_price": 1
+    },
+    "12072": {
+        "name": "Whole Roast",
+        "market_price": 1
+    },
+    "12073": {
+        "name": "Bearfoot Special",
+        "market_price": 1
+    },
+    "12074": {
+        "name": "Tendon Satay",
+        "market_price": 1
+    },
+    "12075": {
+        "name": "Steamed Tongue",
+        "market_price": 1
+    },
+    "12056": {
+        "name": "Frog Egg Squid Ink Soup",
+        "market_price": 1
+    },
+    "12057": {
+        "name": "Lutie Cold Noodle",
+        "market_price": 1
+    },
+    "12058": {
+        "name": "Tentacle Cheese Gratin",
+        "market_price": 1
+    },
+    "12059": {
+        "name": "Herb Marinade Beef",
+        "market_price": 1
+    },
+    "12060": {
+        "name": "Steamed Bat Wing in Pumpkin",
+        "market_price": 1
+    },
+    "12086": {
+        "name": "Chile Shrimp Gratin",
+        "market_price": 1
+    },
+    "12087": {
+        "name": "Steamed Alligator with Vegetable",
+        "market_price": 1
+    },
+    "12088": {
+        "name": "Incredibly Spicy Curry",
+        "market_price": 1
+    },
+    "12089": {
+        "name": "Special Meat Stew",
+        "market_price": 1
+    },
+    "12090": {
+        "name": "Steamed Desert Scorpions",
+        "market_price": 1
+    },
+    "12051": {
+        "name": "Steamed Crab Nippers",
+        "market_price": 1
+    },
+    "12052": {
+        "name": "Assorted Seafood",
+        "market_price": 1
+    },
+    "12053": {
+        "name": "Clam Soup",
+        "market_price": 1
+    },
+    "12054": {
+        "name": "Seasoned Jellyfish",
+        "market_price": 1
+    },
+    "12055": {
+        "name": "Spicy Fried Bao",
+        "market_price": 1
+    },
+    "12081": {
+        "name": "Awfully Bitter Bracer",
+        "market_price": 1
+    },
+    "12082": {
+        "name": "Sumptuous Feast",
+        "market_price": 1
+    },
+    "12083": {
+        "name": "Giant Burito",
+        "market_price": 1
+    },
+    "12084": {
+        "name": "Ascending Dragon Soup",
+        "market_price": 1
+    },
+    "12085": {
+        "name": "Immortal Stew",
+        "market_price": 1
+    },
+    "12046": {
+        "name": "Grape Juice Herbal Tea",
+        "market_price": 1
+    },
+    "12047": {
+        "name": "Autumn Red Tea",
+        "market_price": 1
+    },
+    "12048": {
+        "name": "Honey Herbal Tea",
+        "market_price": 1
+    },
+    "12049": {
+        "name": "Morocc Fruit Wine",
+        "market_price": 1
+    },
+    "12050": {
+        "name": "Mastela Fruit Wine",
+        "market_price": 1
+    },
+    "12076": {
+        "name": "Awfully Bitter Bracer",
+        "market_price": 1
+    },
+    "12077": {
+        "name": "Special Royal Jelly Herbal Tea",
+        "market_price": 1
+    },
+    "12078": {
+        "name": "Royal Family Tea",
+        "market_price": 1
+    },
+    "12079": {
+        "name": "Tristan XII",
+        "market_price": 1
+    },
+    "12080": {
+        "name": "Dragon Breath Cocktail",
+        "market_price": 1
+    },
+    "12061": {
+        "name": "Honey Grape Juice",
+        "market_price": 1
+    },
+    "12062": {
+        "name": "Chocolate Mousse Cake",
+        "market_price": 1
+    },
+    "12063": {
+        "name": "Fruit Mix",
+        "market_price": 1
+    },
+    "12064": {
+        "name": "Cream Sandwich",
+        "market_price": 1
+    },
+    "12065": {
+        "name": "Green Salad",
+        "market_price": 1
+    },
+    "12091": {
+        "name": "Peach Cake",
+        "market_price": 1
+    },
+    "12092": {
+        "name": "Soul Haunted Bread",
+        "market_price": 1
+    },
+    "12093": {
+        "name": "Special Toast",
+        "market_price": 1
+    },
+    "12094": {
+        "name": "Heavenly Fruit Juice",
+        "market_price": 1
+    },
+    "12095": {
+        "name": "Hwergelmir's Tonic",
+        "market_price": 1
+    },
+    "12066": {
+        "name": "Fried Monkey Tails",
+        "market_price": 1
+    },
+    "12067": {
+        "name": "Mixed Juice",
+        "market_price": 1
+    },
+    "12068": {
+        "name": "Fried Sweet Potato",
+        "market_price": 1
+    },
+    "12069": {
+        "name": "Steamed Ancient Lips",
+        "market_price": 1
+    },
+    "12070": {
+        "name": "Fried Scorpion Tails",
+        "market_price": 1
+    },
+    "12096": {
+        "name": "Lucky Soup",
+        "market_price": 1
+    },
+    "12097": {
+        "name": "Assorted Shish Kebob",
+        "market_price": 1
+    },
+    "12098": {
+        "name": "Strawberry Flavored Rice Ball",
+        "market_price": 1
+    },
+    "12099": {
+        "name": "Blood Flavored Soda",
+        "market_price": 1
+    },
+    "12100": {
+        "name": "Cooked Nine Tail's Tails",
+        "market_price": "( function (x) { x.scLukFood = 10; });"
+    },
+    "12319": {
+        "name": "Rune Strawberry Cake",
+        "market_price": 1
+    },
+    "12320": {
+        "name": "Schwartzwald Pine Jubilee",
+        "market_price": 1
+    },
+    "12321": {
+        "name": "Arunafeltz Desert Sandwich",
+        "market_price": 1
+    },
+    "12342": {
+        "name": "Manuk's Sturdiness",
+        "market_price": 1
+    },
+    "12348": {
+        "name": "Manuk's Faith",
+        "market_price": 1
+    },
+    "12343": {
+        "name": "Manuk's Will",
+        "market_price": 1
+    },
+    "12344": {
+        "name": "Pinguicula's Fruit Jam",
+        "market_price": 1
+    },
+    "12349": {
+        "name": "Cornus' Tear",
+        "market_price": 1
+    },
+    "12345": {
+        "name": "Luciola's Honey Jam",
+        "market_price": 1
+    },
+    "12272": {
+        "name": "Military Ration B",
+        "market_price": 1
+    },
+    "12273": {
+        "name": "Military Ration C",
+        "market_price": 1
+    },
+    "12269": {
+        "name": "Tasty Pink Ration",
+        "market_price": 1
+    },
+    "12270": {
+        "name": "Tasty White Ration",
+        "market_price": 1
+    },
+    "8956": {
+        "name": "Venatu's Beep",
+        "market_price": 1
+    },
+    "8816": {
+        "name": "Old Dracula's Mix",
+        "market_price": 1
+    },
+    "8951": {
+        "name": "Spammers Heaven",
+        "market_price": 1
+    },
+    "8957": {
+        "name": "Myst Case's Surprise",
+        "market_price": 1
+    },
+    "8952": {
+        "name": "Seductive Bathory",
+        "market_price": 1
+    },
+    "8953": {
+        "name": "Sting's Slap",
+        "market_price": 1
+    },
+    "8954": {
+        "name": "Blossoming Geographer",
+        "market_price": 1
+    },
+    "8955": {
+        "name": "Drip of Yggdrasil",
+        "market_price": 1
+    },
+    "21077": {
+        "name": "Moscow Headless Mule",
+        "market_price": 1
+    },
+    "21790": {
+        "name": "Bobo's Boba",
+        "market_price": 1
+    },
+    "21791": {
+        "name": "Wolfchev's Nightcap",
+        "market_price": 1
+    },
+    "21792": {
+        "name": "Chepet's Match",
+        "market_price": 1
+    },
+    "21793": {
+        "name": "Dullahan's Ale",
+        "market_price": 1
+    },
+    "21794": {
+        "name": "Sippin' Galapago",
+        "market_price": 1
+    },
+    "21795": {
+        "name": "Sleeper's Dream",
+        "market_price": 1
+    },
+    "21796": {
+        "name": "Mobster's Paradise",
+        "market_price": 1
+    },
+    "14536": {
+        "name": "Abrasive",
+        "market_price": 1
+    },
+    "606": {
+        "name": "Aloevera",
+        "market_price": 30000
+    },
+    "12354": {
+        "name": "Buche de Noel",
+        "market_price": 1
+    },
+    "12414": {
+        "name": "Guarana Candy",
+        "market_price": 10000
+    },
+    "12775": {
+        "name": "Greater Agimat of Ancient Spirit",
+        "market_price": 150000
+    },
+    "12030": {
+        "name": "Box of Resentment",
+        "market_price": 1
+    },
+    "12031": {
+        "name": "Box of Drowsiness",
+        "market_price": 1
+    },
+    "12266": {
+        "name": "Sesame Pastry",
+        "market_price": 1
+    },
+    "12267": {
+        "name": "Honey Pastry",
+        "market_price": 1
+    },
+    "12268": {
+        "name": "Rainbow Cake",
+        "market_price": 1
+    },
+    "12119": {
+        "name": "Coldproof Potion",
+        "market_price": 1
+    },
+    "12120": {
+        "name": "Earthproof Potion",
+        "market_price": 1
+    },
+    "12118": {
+        "name": "Fireproof Potion",
+        "market_price": 1
+    },
+    "12121": {
+        "name": "Thunderproof Potion",
+        "market_price": 1
+    },
+    "12812": {
+        "name": "Snow Flip",
+        "market_price": 1
+    },
+    "12813": {
+        "name": "Peony Mommy",
+        "market_price": 1
+    },
+    "12814": {
+        "name": "Slapping Herb",
+        "market_price": 1
+    },
+    "12815": {
+        "name": "Yggdrasil Dust",
+        "market_price": 1
+    },
+    "6623": {
+        "name": "Rough Energy Crystal",
+        "market_price": 1
+    },
+    "6624": {
+        "name": "Purified Energy Crystal",
+        "market_price": 1
+    },
+    "6625": {
+        "name": "High Energy Crystal",
+        "market_price": 1
+    },
+    "0": {
+        "name": "None",
+        "market_price": 1
+    },
+    "645": {
+        "name": "Concentration Potion",
+        "market_price": 800
+    },
+    "656": {
+        "name": "Awakening Potion",
+        "market_price": 1500
+    },
+    "657": {
+        "name": "Berserk Potion",
+        "market_price": 3000
+    },
+    "678": {
+        "name": "Poison Bottle",
+        "market_price": 90000
+    },
+    "517": {
+        "name": "Meat",
+        "market_price": 38
+    },
+    "533": {
+        "name": "Grape Juice",
+        "market_price": 170
+    },
+    "547": {
+        "name": "Condensed White Potion",
+        "market_price": 1900
+    },
+    "546": {
+        "name": "Condensed Yellow Potion",
+        "market_price": 1
+    },
+    "545": {
+        "name": "Condensed Red Potion",
+        "market_price": 1
+    },
+    "11503": {
+        "name": "WoE Blue Potion",
+        "market_price": 1
+    },
+    "539": {
+        "name": "Piece of Cake",
+        "market_price": 1
+    },
+    "578": {
+        "name": "Strawberry",
+        "market_price": 1
+    },
+    "582": {
+        "name": "Orange",
+        "market_price": 1
+    },
+    "505": {
+        "name": "Blue Potion",
+        "market_price": 1
+    },
+    "504": {
+        "name": "White Potion",
+        "market_price": 1
+    },
+    "503": {
+        "name": "Yellow Potion",
+        "market_price": 1
+    },
+    "502": {
+        "name": "Orange Potion",
+        "market_price": 1
+    },
+    "501": {
+        "name": "Red Potion",
+        "market_price": 1
+    },
+    "507": {
+        "name": "Red Herb",
+        "market_price": 1
+    },
+    "508": {
+        "name": "Yellow Herb",
+        "market_price": 1
+    },
+    "509": {
+        "name": "White Herb",
+        "market_price": 1
+    },
+    "510": {
+        "name": "Blue Herb",
+        "market_price": 1
+    },
+    "512": {
+        "name": "Apple",
+        "market_price": 1
+    },
+    "513": {
+        "name": "Banana",
+        "market_price": 1
+    },
+    "514": {
+        "name": "Grape",
+        "market_price": 1
+    },
+    "515": {
+        "name": "Carrot",
+        "market_price": 1
+    },
+    "516": {
+        "name": "Potato",
+        "market_price": 1
+    },
+    "518": {
+        "name": "Honey",
+        "market_price": 1
+    },
+    "519": {
+        "name": "Milk",
+        "market_price": 1
+    },
+    "520": {
+        "name": "Hinalle Leaflet",
+        "market_price": 1
+    },
+    "521": {
+        "name": "Aloe Leaflet",
+        "market_price": 1
+    },
+    "522": {
+        "name": "Mastela Fruit",
+        "market_price": 1
+    },
+    "526": {
+        "name": "Royal Jelly",
+        "market_price": 1
+    },
+    "528": {
+        "name": "Monster's Feed",
+        "market_price": 1
+    },
+    "529": {
+        "name": "Candy",
+        "market_price": 1
+    },
+    "530": {
+        "name": "Candy Cane",
+        "market_price": 1
+    },
+    "531": {
+        "name": "Apple Juice",
+        "market_price": 1
+    },
+    "532": {
+        "name": "Banana Juice",
+        "market_price": 1
+    },
+    "534": {
+        "name": "Carrot Juice",
+        "market_price": 1
+    },
+    "536": {
+        "name": "Ice Cream",
+        "market_price": 1
+    },
+    "537": {
+        "name": "Pet Food",
+        "market_price": 1
+    },
+    "538": {
+        "name": "Well-baked Cookie",
+        "market_price": 1
+    },
+    "540": {
+        "name": "Falcon Food",
+        "market_price": 1
+    },
+    "541": {
+        "name": "PecoPeco Food",
+        "market_price": 1
+    },
+    "542": {
+        "name": "Fortune Cookie",
+        "market_price": 1
+    },
+    "544": {
+        "name": "Raw Fish",
+        "market_price": 1
+    },
+    "548": {
+        "name": "Cheese",
+        "market_price": 1
+    },
+    "549": {
+        "name": "Yam",
+        "market_price": 1
+    },
+    "550": {
+        "name": "Rice Cake",
+        "market_price": 1
+    },
+    "551": {
+        "name": "Sushi",
+        "market_price": 1
+    },
+    "552": {
+        "name": "Ketupat",
+        "market_price": 1
+    },
+    "553": {
+        "name": "Bao",
+        "market_price": 1
+    },
+    "554": {
+        "name": "Mochi",
+        "market_price": 1
+    },
+    "555": {
+        "name": "Traditional Rice Cake",
+        "market_price": 1
+    },
+    "556": {
+        "name": "Rice Cake Stick",
+        "market_price": 1
+    },
+    "557": {
+        "name": "Neatly Sliced Rice Cake",
+        "market_price": 1
+    },
+    "563": {
+        "name": "Doublecrust Swiss Fondue",
+        "market_price": 1
+    },
+    "565": {
+        "name": "Vita500",
+        "market_price": 1
+    },
+    "566": {
+        "name": "Tom Yum Goong",
+        "market_price": 1
+    },
+    "567": {
+        "name": "Shrimp",
+        "market_price": 1
+    },
+    "568": {
+        "name": "Lemon",
+        "market_price": 1
+    },
+    "569": {
+        "name": "Novice Potion",
+        "market_price": 1
+    },
+    "570": {
+        "name": "Lucky Candy",
+        "market_price": 1
+    },
+    "571": {
+        "name": "Lucky Candy Cane",
+        "market_price": 1
+    },
+    "572": {
+        "name": "Lucky Cookie",
+        "market_price": 1
+    },
+    "573": {
+        "name": "Chocolate Drink",
+        "market_price": 1
+    },
+    "574": {
+        "name": "Egg",
+        "market_price": 1
+    },
+    "575": {
+        "name": "2nd Anniversary Cake",
+        "market_price": 1
+    },
+    "576": {
+        "name": "Prickly Fruit",
+        "market_price": 1
+    },
+    "577": {
+        "name": "Bag of Grain",
+        "market_price": 1
+    },
+    "579": {
+        "name": "Fresh Fish",
+        "market_price": 1
+    },
+    "580": {
+        "name": "Bread",
+        "market_price": 1
+    },
+    "581": {
+        "name": "Edible Mushroom",
+        "market_price": 1
+    },
+    "583": {
+        "name": "Ketupat Sayur",
+        "market_price": 1
+    },
+    "584": {
+        "name": "Fish Cake Soup",
+        "market_price": 1
+    },
+    "585": {
+        "name": "Brusti",
+        "market_price": 1
+    },
+    "586": {
+        "name": "Mother's Cake",
+        "market_price": 1
+    },
+    "587": {
+        "name": "Red Prickly Fruit",
+        "market_price": 1
+    },
+    "588": {
+        "name": "Spaghetti",
+        "market_price": 1
+    },
+    "589": {
+        "name": "Pizza",
+        "market_price": 1
+    },
+    "590": {
+        "name": "Pretzel",
+        "market_price": 1
+    },
+    "591": {
+        "name": "Caviar Pancake",
+        "market_price": 1
+    },
+    "592": {
+        "name": "Jam Pancake",
+        "market_price": 1
+    },
+    "593": {
+        "name": "Honey Pancake",
+        "market_price": 1
+    },
+    "594": {
+        "name": "Sour-Cream Pancake",
+        "market_price": 1
+    },
+    "595": {
+        "name": "Mushroom Pancake",
+        "market_price": 1
+    },
+    "596": {
+        "name": "Cute Strawberry-Choco",
+        "market_price": 1
+    },
+    "597": {
+        "name": "Lovely Choco-Tart",
+        "market_price": 1
+    },
+    "598": {
+        "name": "Light Red Potion",
+        "market_price": 1
+    },
+    "599": {
+        "name": "Light Orange Potion",
+        "market_price": 1
+    },
+    "11519": {
+        "name": "Beef Toast",
+        "market_price": 1
+    },
+    "523": {
+        "name": "Holy Water",
+        "market_price": 400
+    },
+    "715": {
+        "name": "Yellow Gemstone",
+        "market_price": 600
+    },
+    "716": {
+        "name": "Red Gemstone",
+        "market_price": 600
+    },
+    "717": {
+        "name": "Blue Gemstone",
+        "market_price": 600
+    },
+    "1025": {
+        "name": "Cobweb",
+        "market_price": 250
+    },
+    "7521": {
+        "name": "Burning Stone",
+        "market_price": 150
+    },
+    "7522": {
+        "name": "Ice Stone",
+        "market_price": 150
+    },
+    "7523": {
+        "name": "Wind Stone",
+        "market_price": 150
+    },
+    "506": {
+        "name": "Green Pot",
+        "market_price": 40
+    },
+    "525": {
+        "name": "Panacea",
+        "market_price": 500
+    },
+    "601": {
+        "name": "Fly Wing",
+        "market_price": 60
+    },
+    "607": {
+        "name": "Yggdrasil Berry",
+        "market_price": 35000
+    },
+    "608": {
+        "name": "Yggdrasil Seed",
+        "market_price": 17000
+    },
+    "610": {
+        "name": "Yggdrasil Leaf",
+        "market_price": 4000
+    },
+    "611": {
+        "name": "Magnifier",
+        "market_price": 40
+    }
+}
