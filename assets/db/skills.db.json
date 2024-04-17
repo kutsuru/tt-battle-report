@@ -1,0 +1,3826 @@
+{
+    "0": {
+        "name": "Basic Attack",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Novice",
+            "Swordman",
+            "Mage",
+            "Archer",
+            "Acolyte",
+            "Merchant",
+            "Thief",
+            "Knight",
+            "Priest",
+            "Wizard",
+            "Blacksmith",
+            "Hunter",
+            "Assassin",
+            "Crusader",
+            "Monk",
+            "Sage",
+            "Rogue",
+            "Alchemist",
+            "Bard",
+            "Dancer",
+            "Supernovice",
+            "Gunslinger",
+            "Ninja",
+            "Novice High",
+            "Swordman High",
+            "Mage High",
+            "Archer High",
+            "Acolyte High",
+            "Merchant High",
+            "Thief High",
+            "Lord Knight",
+            "High Priest",
+            "High Wizard",
+            "Whitesmith",
+            "Sniper",
+            "Assassin Cross",
+            "Paladin",
+            "Champion",
+            "Professor",
+            "Stalker",
+            "Creator",
+            "Clown",
+            "Gypsy",
+            "Taekwon",
+            "Star Gladiator",
+            "Soul Linker"
+        ]
+    },
+    "2": {
+        "name": "Sword Mastery",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Swordman",
+            "Knight",
+            "Crusader",
+            "Rogue",
+            "Supernovice",
+            "Swordman High",
+            "Lord Knight",
+            "Paladin",
+            "Stalker"
+        ]
+    },
+    "3": {
+        "name": "Two-Hand Sword Mastery",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Swordman",
+            "Knight",
+            "Crusader",
+            "Swordman High",
+            "Lord Knight",
+            "Paladin"
+        ]
+    },
+    "4": {
+        "name": "Increased HP Recovery",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Swordman",
+            "Knight",
+            "Crusader",
+            "Supernovice",
+            "Swordman High",
+            "Lord Knight",
+            "Paladin"
+        ]
+    },
+    "5": {
+        "name": "Bash",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Swordman",
+            "Knight",
+            "Crusader",
+            "Rogue",
+            "Supernovice",
+            "Swordman High",
+            "Lord Knight",
+            "Paladin",
+            "Stalker"
+        ]
+    },
+    "6": {
+        "name": "Provoke",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "7": {
+        "name": "Magnum Break",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Swordman",
+            "Knight",
+            "Crusader",
+            "Rogue",
+            "Supernovice",
+            "Swordman High",
+            "Lord Knight",
+            "Paladin",
+            "Stalker"
+        ]
+    },
+    "8": {
+        "name": "Endure",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Swordman",
+            "Knight",
+            "Crusader",
+            "Supernovice",
+            "Swordman High",
+            "Lord Knight",
+            "Paladin"
+        ]
+    },
+    "9": {
+        "name": "Increased SP Recovery",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Mage",
+            "Priest",
+            "Wizard",
+            "Sage",
+            "Mage High",
+            "High Priest",
+            "High Wizard",
+            "Professor"
+        ]
+    },
+    "10": {
+        "name": "Sight",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "11": {
+        "name": "Napalm Beat",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Mage",
+            "Wizard",
+            "Sage",
+            "Rogue",
+            "Supernovice",
+            "Mage High",
+            "High Wizard",
+            "Professor",
+            "Stalker"
+        ]
+    },
+    "12": {
+        "name": "Safety Wall",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "13": {
+        "name": "Soul Strike",
+        "hits": "function (skill_lv, misc) { return Math.round(skill_lv / 2); });",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Mage",
+            "Wizard",
+            "Sage",
+            "Rogue",
+            "Supernovice",
+            "Mage High",
+            "High Wizard",
+            "Professor",
+            "Stalker"
+        ]
+    },
+    "14": {
+        "name": "Cold Bolt",
+        "hits": "function (skill_lv, misc) { return skill_lv; });",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Mage",
+            "Wizard",
+            "Sage",
+            "Rogue",
+            "Supernovice",
+            "Mage High",
+            "High Wizard",
+            "Professor",
+            "Stalker"
+        ]
+    },
+    "15": {
+        "name": "Frost Diver",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Mage",
+            "Wizard",
+            "Sage",
+            "Rogue",
+            "Supernovice",
+            "Mage High",
+            "High Wizard",
+            "Professor",
+            "Stalker"
+        ]
+    },
+    "16": {
+        "name": "Stone Curse",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "17": {
+        "name": "Fire Ball",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Mage",
+            "Wizard",
+            "Sage",
+            "Rogue",
+            "Supernovice",
+            "Mage High",
+            "High Wizard",
+            "Professor",
+            "Stalker"
+        ]
+    },
+    "18": {
+        "name": "Fire Wall",
+        "hits": "function (skill_lv, misc) { return 4 + skill_lv; });",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Mage",
+            "Wizard",
+            "Sage",
+            "Rogue",
+            "Supernovice",
+            "Mage High",
+            "High Wizard",
+            "Professor",
+            "Stalker"
+        ]
+    },
+    "19": {
+        "name": "Fire Bolt",
+        "hits": "function (skill_lv, misc) { return skill_lv; });",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Mage",
+            "Wizard",
+            "Sage",
+            "Rogue",
+            "Supernovice",
+            "Mage High",
+            "High Wizard",
+            "Professor",
+            "Stalker"
+        ]
+    },
+    "20": {
+        "name": "Lightning Bolt",
+        "hits": "function (skill_lv, misc) { return skill_lv; });",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Mage",
+            "Wizard",
+            "Sage",
+            "Rogue",
+            "Supernovice",
+            "Mage High",
+            "High Wizard",
+            "Professor",
+            "Stalker"
+        ]
+    },
+    "21": {
+        "name": "Thunder Storm",
+        "hits": "function (skill_lv, misc) { return skill_lv; });",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Mage",
+            "Wizard",
+            "Sage",
+            "Rogue",
+            "Supernovice",
+            "Mage High",
+            "High Wizard",
+            "Professor",
+            "Stalker"
+        ]
+    },
+    "22": {
+        "name": "Divine Protection",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Acolyte",
+            "Priest",
+            "Crusader",
+            "Monk",
+            "Supernovice",
+            "Acolyte High",
+            "High Priest",
+            "Paladin",
+            "Champion"
+        ]
+    },
+    "23": {
+        "name": "Demon Bane",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Acolyte",
+            "Priest",
+            "Crusader",
+            "Monk",
+            "Supernovice",
+            "Acolyte High",
+            "High Priest",
+            "Paladin",
+            "Champion"
+        ]
+    },
+    "24": {
+        "name": "Ruwach",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "25": {
+        "name": "Pneuma",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "26": {
+        "name": "Teleport",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "27": {
+        "name": "Warp Portal",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "28": {
+        "name": "Heal",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Acolyte",
+            "Priest",
+            "Crusader",
+            "Monk",
+            "Rogue",
+            "Supernovice",
+            "Acolyte High",
+            "High Priest",
+            "Paladin",
+            "Champion",
+            "Stalker"
+        ]
+    },
+    "29": {
+        "name": "Increase AGI",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "30": {
+        "name": "Decrease AGI",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "31": {
+        "name": "Aqua Benedicta",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "32": {
+        "name": "Signum Crusis",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "33": {
+        "name": "Angelus",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "34": {
+        "name": "Blessing",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "35": {
+        "name": "Cure",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "36": {
+        "name": "Enlarge Weight Limit",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "37": {
+        "name": "Discount",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "38": {
+        "name": "Overcharge",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "39": {
+        "name": "Pushcart",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "40": {
+        "name": "Item Appraisal",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "41": {
+        "name": "Vending",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "42": {
+        "name": "Mammonite",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Merchant",
+            "Blacksmith",
+            "Rogue",
+            "Alchemist",
+            "Supernovice",
+            "Merchant High",
+            "Whitesmith",
+            "Stalker",
+            "Creator"
+        ]
+    },
+    "43": {
+        "name": "Owl's Eye",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Archer",
+            "Hunter",
+            "Bard",
+            "Dancer",
+            "Supernovice",
+            "Archer High",
+            "Sniper",
+            "Clown",
+            "Gypsy"
+        ]
+    },
+    "44": {
+        "name": "Vulture's Eye",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Archer",
+            "Hunter",
+            "Rogue",
+            "Bard",
+            "Dancer",
+            "Supernovice",
+            "Archer High",
+            "Sniper",
+            "Stalker",
+            "Clown",
+            "Gypsy"
+        ]
+    },
+    "45": {
+        "name": "Improve Concentration",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Archer",
+            "Hunter",
+            "Bard",
+            "Dancer",
+            "Supernovice",
+            "Archer High",
+            "Sniper",
+            "Clown",
+            "Gypsy"
+        ]
+    },
+    "46": {
+        "name": "Double Strafe",
+        "hits": 2,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Archer",
+            "Hunter",
+            "Rogue",
+            "Bard",
+            "Dancer",
+            "Archer High",
+            "Sniper",
+            "Stalker",
+            "Clown",
+            "Gypsy"
+        ]
+    },
+    "47": {
+        "name": "Arrow Shower",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Archer",
+            "Hunter",
+            "Rogue",
+            "Bard",
+            "Dancer",
+            "Archer High",
+            "Sniper",
+            "Stalker",
+            "Clown",
+            "Gypsy"
+        ]
+    },
+    "48": {
+        "name": "Double Attack",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Thief",
+            "Assassin",
+            "Rogue",
+            "Supernovice",
+            "Thief High",
+            "Assassin Cross",
+            "Stalker"
+        ]
+    },
+    "49": {
+        "name": "Improve Dodge",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Thief",
+            "Assassin",
+            "Rogue",
+            "Supernovice",
+            "Thief High",
+            "Assassin Cross",
+            "Stalker"
+        ]
+    },
+    "50": {
+        "name": "Steal",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "51": {
+        "name": "Hiding",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "52": {
+        "name": "Envenom",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Thief",
+            "Assassin",
+            "Rogue",
+            "Supernovice",
+            "Thief High",
+            "Assassin Cross",
+            "Stalker"
+        ]
+    },
+    "53": {
+        "name": "Detoxify",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "54": {
+        "name": "Resurrection",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Priest",
+            "Rogue",
+            "High Priest",
+            "Stalker"
+        ]
+    },
+    "55": {
+        "name": "Spear Mastery",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Knight",
+            "Crusader",
+            "Lord Knight",
+            "Paladin"
+        ]
+    },
+    "56": {
+        "name": "Pierce",
+        "hits": "function (skill_lv, misc) { return  misc + 1; });",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Knight",
+            "Lord Knight"
+        ]
+    },
+    "57": {
+        "name": "Brandish Spear",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Knight",
+            "Lord Knight"
+        ]
+    },
+    "58": {
+        "name": "Spear Stab",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Knight",
+            "Lord Knight"
+        ]
+    },
+    "59": {
+        "name": "Spear Boomerang",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Knight",
+            "Lord Knight"
+        ]
+    },
+    "60": {
+        "name": "Twohand Quicken",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Knight",
+            "Lord Knight"
+        ]
+    },
+    "61": {
+        "name": "Auto Counter",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "62": {
+        "name": "Bowling Bash",
+        "hits": 2,
+        "isMultiHits": true,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Knight",
+            "Rogue",
+            "Lord Knight",
+            "Stalker"
+        ]
+    },
+    "63": {
+        "name": "Peco Peco Ride",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "64": {
+        "name": "Cavalier Mastery",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Knight",
+            "Crusader",
+            "Lord Knight",
+            "Paladin"
+        ]
+    },
+    "65": {
+        "name": "Mace Mastery",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Priest",
+            "High Priest"
+        ]
+    },
+    "66": {
+        "name": "Impositio Manus",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "67": {
+        "name": "Suffragium",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "68": {
+        "name": "Aspersio",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "69": {
+        "name": "Benedictio Sanctissimi Sacramenti",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "70": {
+        "name": "Sanctuary",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Priest",
+            "High Priest"
+        ]
+    },
+    "71": {
+        "name": "Slow Poison",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "72": {
+        "name": "Status Recovery",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "73": {
+        "name": "Kyrie Eleison",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "74": {
+        "name": "Magnificat",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "75": {
+        "name": "Gloria",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "76": {
+        "name": "Lex Divina",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "77": {
+        "name": "Turn Undead",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Priest",
+            "Rogue",
+            "High Priest",
+            "Stalker"
+        ]
+    },
+    "78": {
+        "name": "Lex Aeterna",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "79": {
+        "name": "Magnus Exorcismus",
+        "hits": "function (skill_lv, misc) { return skill_lv; });",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Priest",
+            "Rogue",
+            "High Priest",
+            "Stalker"
+        ]
+    },
+    "80": {
+        "name": "Fire Pillar",
+        "hits": "function (skill_lv, misc) { return skill_lv + 2; });",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Wizard",
+            "Rogue",
+            "High Wizard",
+            "Stalker"
+        ]
+    },
+    "81": {
+        "name": "Sightrasher",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Wizard",
+            "Rogue",
+            "High Wizard",
+            "Stalker"
+        ]
+    },
+    "83": {
+        "name": "Meteor Storm",
+        "hits": "function (skill_lv, misc) { return Math.round(skill_lv / 2) * (Math.floor(skill_lv / 2) + 2); });",
+        "isMultiHits": true,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Wizard",
+            "Rogue",
+            "High Wizard",
+            "Stalker"
+        ]
+    },
+    "84": {
+        "name": "Jupitel Thunder",
+        "hits": "function (skill_lv, misc) { return skill_lv + 2; });",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Wizard",
+            "Rogue",
+            "High Wizard",
+            "Stalker"
+        ]
+    },
+    "85": {
+        "name": "Lord of Vermillion",
+        "hits": 4,
+        "isMultiHits": true,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Wizard",
+            "Rogue",
+            "High Wizard",
+            "Stalker"
+        ]
+    },
+    "86": {
+        "name": "Water Ball",
+        "hits": "function (skill_lv, misc) { return (skill_lv > 3) ? 25 : (skill_lv > 1 ? 9 : 1); });",
+        "isMultiHits": true,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Stalker"
+        ]
+    },
+    "87": {
+        "name": "Ice Wall",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "88": {
+        "name": "Frost Nova",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Wizard",
+            "Rogue",
+            "High Wizard",
+            "Stalker"
+        ]
+    },
+    "89": {
+        "name": "Storm Gust",
+        "hits": "function (skill_lv, misc) { return misc; });",
+        "isMultiHits": true,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Wizard",
+            "Rogue",
+            "High Wizard",
+            "Stalker"
+        ]
+    },
+    "90": {
+        "name": "Earth Spike",
+        "hits": "function (skill_lv, misc) { return skill_lv; });",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Wizard",
+            "Sage",
+            "Rogue",
+            "High Wizard",
+            "Professor",
+            "Stalker"
+        ]
+    },
+    "91": {
+        "name": "Heaven's Drive",
+        "hits": "function (skill_lv, misc) { return skill_lv; });",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Stalker"
+        ]
+    },
+    "92": {
+        "name": "Quagmire",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "93": {
+        "name": "Monster Property",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "94": {
+        "name": "Iron Tempering",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "95": {
+        "name": "Steel Tempering",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "96": {
+        "name": "Enchanted Stone Craft",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "97": {
+        "name": "Oridecon Research",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "98": {
+        "name": "Smith Dagger",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "99": {
+        "name": "Smith Sword",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "100": {
+        "name": "Smith Two-handed Sword",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "101": {
+        "name": "Smith Axe",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "102": {
+        "name": "Smith Mace",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "103": {
+        "name": "Smith Brass Knuckle",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "104": {
+        "name": "Smith Spear",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "105": {
+        "name": "Hilt Binding",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Blacksmith",
+            "Whitesmith"
+        ]
+    },
+    "106": {
+        "name": "Ore Discovery",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "107": {
+        "name": "Weaponry Research",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Blacksmith",
+            "Whitesmith"
+        ]
+    },
+    "108": {
+        "name": "Weapon Repair",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "109": {
+        "name": "Skin Tempering",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Blacksmith",
+            "Whitesmith"
+        ]
+    },
+    "110": {
+        "name": "Hammer Fall",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "111": {
+        "name": "Andrenaline Rush",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Blacksmith",
+            "Whitesmith"
+        ]
+    },
+    "112": {
+        "name": "Weapon Perfection",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Blacksmith",
+            "Whitesmith"
+        ]
+    },
+    "113": {
+        "name": "Power Thrust",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Blacksmith",
+            "Whitesmith"
+        ]
+    },
+    "114": {
+        "name": "Power Maximize",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Blacksmith",
+            "Whitesmith"
+        ]
+    },
+    "115": {
+        "name": "Skid Trap",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "116": {
+        "name": "Land Mine",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Hunter",
+            "Rogue",
+            "Sniper",
+            "Stalker"
+        ]
+    },
+    "117": {
+        "name": "Ankle Snare",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "118": {
+        "name": "Flasher",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "119": {
+        "name": "Shockwave Trap",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "120": {
+        "name": "Sandman",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "121": {
+        "name": "Freezing Trap",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Hunter",
+            "Rogue",
+            "Sniper",
+            "Stalker"
+        ]
+    },
+    "122": {
+        "name": "Blast Mine",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Hunter",
+            "Rogue",
+            "Sniper",
+            "Stalker"
+        ]
+    },
+    "123": {
+        "name": "Claymore Trap",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Hunter",
+            "Rogue",
+            "Sniper",
+            "Stalker"
+        ]
+    },
+    "124": {
+        "name": "Remove Trap",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "125": {
+        "name": "Talkie Box",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "126": {
+        "name": "Beast Bane",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Hunter",
+            "Sniper"
+        ]
+    },
+    "127": {
+        "name": "Falconry Mastery",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "128": {
+        "name": "Blitz Beat",
+        "hits": 5,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Hunter",
+            "Sniper"
+        ]
+    },
+    "129": {
+        "name": "Steel Crow",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Hunter",
+            "Sniper"
+        ]
+    },
+    "130": {
+        "name": "Detect",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "131": {
+        "name": "Spring Trap",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "132": {
+        "name": "Right-Hand Mastery",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Assassin",
+            "Assassin Cross"
+        ]
+    },
+    "133": {
+        "name": "Left-Hand Mastery",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Assassin",
+            "Assassin Cross"
+        ]
+    },
+    "134": {
+        "name": "Katar Mastery",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Assassin",
+            "Assassin Cross"
+        ]
+    },
+    "135": {
+        "name": "Cloaking",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Assassin",
+            "Assassin Cross"
+        ]
+    },
+    "136": {
+        "name": "Sonic Blow",
+        "hits": 8,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": true,
+        "jobs": [
+            "Assassin",
+            "Assassin Cross"
+        ]
+    },
+    "137": {
+        "name": "Grimtooth",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Assassin",
+            "Assassin Cross"
+        ]
+    },
+    "138": {
+        "name": "Enchant Poison",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "139": {
+        "name": "Poison React [Counter]",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Assassin",
+            "Assassin Cross"
+        ]
+    },
+    "140": {
+        "name": "Venom Dust",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "141": {
+        "name": "Venom Splasher",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Assassin",
+            "Rogue",
+            "Assassin Cross",
+            "Stalker"
+        ]
+    },
+    "142": {
+        "name": "First Aid",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "143": {
+        "name": "Play Dead",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "145": {
+        "name": "Fatal Blow",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "146": {
+        "name": "Auto Berserk",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Swordman",
+            "Knight",
+            "Crusader",
+            "Swordman High",
+            "Lord Knight",
+            "Paladin"
+        ]
+    },
+    "147": {
+        "name": "Arrow Crafting",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "148": {
+        "name": "Charge Arrow",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Archer",
+            "Hunter",
+            "Rogue",
+            "Bard",
+            "Dancer",
+            "Archer High",
+            "Sniper",
+            "Stalker",
+            "Clown",
+            "Gypsy"
+        ]
+    },
+    "149": {
+        "name": "Sprinkle Sand",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Thief",
+            "Assassin",
+            "Rogue",
+            "Thief High",
+            "Assassin Cross",
+            "Stalker"
+        ]
+    },
+    "150": {
+        "name": "Back Slide",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "151": {
+        "name": "Find Stone",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "152": {
+        "name": "Throw Stone",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Thief",
+            "Assassin",
+            "Rogue",
+            "Thief High",
+            "Assassin Cross",
+            "Stalker"
+        ]
+    },
+    "153": {
+        "name": "Cart Revolution",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Merchant",
+            "Blacksmith",
+            "Alchemist",
+            "Merchant High",
+            "Whitesmith",
+            "Creator"
+        ]
+    },
+    "154": {
+        "name": "Change Cart",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "155": {
+        "name": "Crazy Uproar",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Merchant",
+            "Blacksmith",
+            "Alchemist",
+            "Merchant High",
+            "Whitesmith",
+            "Creator"
+        ]
+    },
+    "156": {
+        "name": "Holy Light",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Acolyte",
+            "Priest",
+            "Monk",
+            "Rogue",
+            "Acolyte High",
+            "High Priest",
+            "Champion",
+            "Stalker"
+        ]
+    },
+    "157": {
+        "name": "Energy Coat",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Mage",
+            "Wizard",
+            "Sage",
+            "Mage High",
+            "High Wizard",
+            "Professor"
+        ]
+    },
+    "210": {
+        "name": "Snatcher",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "211": {
+        "name": "Steal Coin",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "212": {
+        "name": "Back Stab",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Stalker"
+        ]
+    },
+    "213": {
+        "name": "Tunnel Drive",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "214": {
+        "name": "Raid",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Stalker"
+        ]
+    },
+    "215": {
+        "name": "Strip Weapon",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "216": {
+        "name": "Strip Shield",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "217": {
+        "name": "Strip Armor",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "218": {
+        "name": "Strip Helm",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "219": {
+        "name": "Intimidate",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Stalker"
+        ]
+    },
+    "220": {
+        "name": "Graffiti",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "221": {
+        "name": "Flag Graffiti",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "222": {
+        "name": "Cleaner",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "223": {
+        "name": "Gangster's Paradise",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "224": {
+        "name": "Compulsion Discount",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "225": {
+        "name": "Plagiarism",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "226": {
+        "name": "Axe Mastery",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Alchemist",
+            "Creator"
+        ]
+    },
+    "227": {
+        "name": "Potion Research",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "228": {
+        "name": "Pharmacy",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "229": {
+        "name": "Demonstration",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Alchemist",
+            "Stalker",
+            "Creator"
+        ]
+    },
+    "230": {
+        "name": "Acid Terror",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Alchemist",
+            "Stalker",
+            "Creator"
+        ]
+    },
+    "231": {
+        "name": "Potion Pitcher",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "232": {
+        "name": "Summon Flora",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "233": {
+        "name": "Summon Marine Sphere",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "234": {
+        "name": "Chemical Protection Weapon",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "235": {
+        "name": "Chemical Protection Shield",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "236": {
+        "name": "Chemical Protection Armor",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "237": {
+        "name": "Chemical Protection Helm",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "248": {
+        "name": "Faith",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Crusader",
+            "Paladin"
+        ]
+    },
+    "249": {
+        "name": "Auto-Guard",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Crusader",
+            "Paladin"
+        ]
+    },
+    "250": {
+        "name": "Shield Charge",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Crusader",
+            "Rogue",
+            "Paladin",
+            "Stalker"
+        ]
+    },
+    "251": {
+        "name": "Shield Boomerang",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Crusader",
+            "Rogue",
+            "Paladin",
+            "Stalker"
+        ]
+    },
+    "252": {
+        "name": "Shield Reflect",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Crusader",
+            "Paladin"
+        ]
+    },
+    "253": {
+        "name": "Holy Cross",
+        "hits": 2,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": true,
+        "jobs": [
+            "Crusader",
+            "Rogue",
+            "Paladin",
+            "Stalker"
+        ]
+    },
+    "254": {
+        "name": "Grand Cross",
+        "hits": 3,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Crusader",
+            "Rogue",
+            "Paladin",
+            "Stalker"
+        ]
+    },
+    "255": {
+        "name": "Devotion",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "256": {
+        "name": "Providence",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "257": {
+        "name": "Defender",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Crusader",
+            "Paladin"
+        ]
+    },
+    "258": {
+        "name": "Spear Quicken",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Crusader",
+            "Paladin"
+        ]
+    },
+    "259": {
+        "name": "Iron Hand",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Monk",
+            "Champion"
+        ]
+    },
+    "260": {
+        "name": "Spirits Recovery",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "261": {
+        "name": "Summon Spirit Sphere",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Monk",
+            "Champion"
+        ]
+    },
+    "262": {
+        "name": "Spiritual Sphere Absorption",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "263": {
+        "name": "Triple Attack",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Monk",
+            "Rogue",
+            "Champion",
+            "Stalker"
+        ]
+    },
+    "264": {
+        "name": "Body Relocation",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "265": {
+        "name": "Dodge",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Monk",
+            "Champion"
+        ]
+    },
+    "266": {
+        "name": "Investigate",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Monk",
+            "Rogue",
+            "Champion",
+            "Stalker"
+        ]
+    },
+    "267": {
+        "name": "Finger Offensive",
+        "hits": 5,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Monk",
+            "Rogue",
+            "Champion",
+            "Stalker"
+        ]
+    },
+    "268": {
+        "name": "Steel Body",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Monk",
+            "Supernovice",
+            "Champion"
+        ]
+    },
+    "269": {
+        "name": "Blade Stop",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "270": {
+        "name": "Critical Explosion",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Monk",
+            "Champion",
+            "Supernovice"
+        ]
+    },
+    "271": {
+        "name": "Asura Strike",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Monk",
+            "Rogue",
+            "Champion",
+            "Stalker"
+        ]
+    },
+    "272": {
+        "name": "Chain Combo",
+        "hits": 4,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": true,
+        "jobs": [
+            "Monk",
+            "Champion"
+        ]
+    },
+    "273": {
+        "name": "Combo Finish",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Monk",
+            "Champion"
+        ]
+    },
+    "274": {
+        "name": "Advanced Book",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Sage",
+            "Professor"
+        ]
+    },
+    "275": {
+        "name": "Cast Cancel",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "276": {
+        "name": "Magic Rod",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "277": {
+        "name": "Spell Breaker",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "278": {
+        "name": "Free Cast",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Sage",
+            "Professor"
+        ]
+    },
+    "279": {
+        "name": "Auto Spell",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Sage",
+            "Professor"
+        ]
+    },
+    "280": {
+        "name": "Flame Launcher",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "281": {
+        "name": "Frost Weapon",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "282": {
+        "name": "Lightning Loader",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "283": {
+        "name": "Seismic Weapon",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "284": {
+        "name": "Dragonology",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Sage",
+            "Professor"
+        ]
+    },
+    "285": {
+        "name": "Volcano",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "286": {
+        "name": "Deluge",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "287": {
+        "name": "Violent Gale",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "288": {
+        "name": "Land Protector",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "289": {
+        "name": "Dispell",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "290": {
+        "name": "Abracadabra",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "304": {
+        "name": "Adaptation to Circumstances",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "305": {
+        "name": "Encore",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "306": {
+        "name": "Lullaby",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "307": {
+        "name": "Mr. Kim A Rich Man",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "308": {
+        "name": "Eternal Chaos",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "309": {
+        "name": "A Drum on the Battlefield",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "310": {
+        "name": "The Ring of Nibelungen",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "311": {
+        "name": "Loki's Veil",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "312": {
+        "name": "Into the Abyss",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "313": {
+        "name": "Invulnerable Siegfried",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "315": {
+        "name": "Musical Lesson",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Bard",
+            "Clown"
+        ]
+    },
+    "316": {
+        "name": "Musical Strike",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Bard",
+            "Clown"
+        ]
+    },
+    "317": {
+        "name": "Dissonance",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "318": {
+        "name": "Frost Joker",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "319": {
+        "name": "A Whistle",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "320": {
+        "name": "Assassin Cross of Sunset",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "321": {
+        "name": "A Poem of Bragi",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "322": {
+        "name": "The Apple of Idun",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "323": {
+        "name": "Dancing Lesson",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Dancer",
+            "Gypsy"
+        ]
+    },
+    "324": {
+        "name": "Throw Arrow",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Dancer",
+            "Gypsy"
+        ]
+    },
+    "325": {
+        "name": "Ugly Dance",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "326": {
+        "name": "Scream",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "327": {
+        "name": "Humming",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "328": {
+        "name": "Please Don't Forget Me",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "329": {
+        "name": "Fortune's Kiss",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "330": {
+        "name": "Service for You",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "337": {
+        "name": "Throw Tomahawk",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Stalker"
+        ]
+    },
+    "344": {
+        "name": "Taekwon Mission",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "345": {
+        "name": "Taekwon Ranker",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Taekwon"
+        ]
+    },
+    "355": {
+        "name": "Aura Blade",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Lord Knight"
+        ]
+    },
+    "356": {
+        "name": "Parrying",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Lord Knight"
+        ]
+    },
+    "357": {
+        "name": "Concentration",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Lord Knight"
+        ]
+    },
+    "358": {
+        "name": "Tension Relax",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "359": {
+        "name": "Berserk",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Lord Knight"
+        ]
+    },
+    "361": {
+        "name": "Assumptio",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "362": {
+        "name": "Basilica",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "363": {
+        "name": "Mediatio",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "High Priest"
+        ]
+    },
+    "364": {
+        "name": "Soul Drain",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "High Wizard"
+        ]
+    },
+    "365": {
+        "name": "Magic Crasher",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "High Wizard",
+            "High Priest"
+        ]
+    },
+    "366": {
+        "name": "Amplify Magic Power",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "High Wizard"
+        ]
+    },
+    "367": {
+        "name": "Pressure",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Paladin"
+        ]
+    },
+    "368": {
+        "name": "Sacrifice",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Paladin"
+        ]
+    },
+    "369": {
+        "name": "Gospel",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "370": {
+        "name": "Palm Push Strike",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Champion"
+        ]
+    },
+    "371": {
+        "name": "Tiger Knuckle Fist",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Champion"
+        ]
+    },
+    "372": {
+        "name": "Chain Crush Combo",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Champion"
+        ]
+    },
+    "373": {
+        "name": "Health Conversion",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "374": {
+        "name": "Soul Change",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "375": {
+        "name": "Soul Burn",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "376": {
+        "name": "Advanced Katar Mastery",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Assassin Cross"
+        ]
+    },
+    "378": {
+        "name": "Enchant Deadly Poison",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Assassin Cross"
+        ]
+    },
+    "379": {
+        "name": "Soul Breaker",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Assassin Cross"
+        ]
+    },
+    "380": {
+        "name": "True Sight",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Sniper"
+        ]
+    },
+    "381": {
+        "name": "Falcon Assault",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Sniper"
+        ]
+    },
+    "382": {
+        "name": "Sharp Shooting",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Sniper"
+        ]
+    },
+    "383": {
+        "name": "Wind Walk",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Sniper"
+        ]
+    },
+    "384": {
+        "name": "Meltdown",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "385": {
+        "name": "Coin Craft",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "386": {
+        "name": "Nugget Craft",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "387": {
+        "name": "Cart Boost",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "388": {
+        "name": "Auto Attack System",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "389": {
+        "name": "Chase Walk",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Stalker"
+        ]
+    },
+    "390": {
+        "name": "Counter Instinct",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Stalker"
+        ]
+    },
+    "392": {
+        "name": "Alchemy",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "393": {
+        "name": "Potion Synthesis",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "394": {
+        "name": "Arrow Vulcan",
+        "hits": 9,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": true,
+        "jobs": [
+            "Clown",
+            "Gypsy"
+        ]
+    },
+    "395": {
+        "name": "Moonlit Water Mill",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "396": {
+        "name": "Marionette Control",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "397": {
+        "name": "Spiral Pierce",
+        "hits": 5,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Lord Knight"
+        ]
+    },
+    "398": {
+        "name": "Head Crush",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Lord Knight"
+        ]
+    },
+    "399": {
+        "name": "Joint Beat",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Lord Knight"
+        ]
+    },
+    "400": {
+        "name": "Napalm Vulcan",
+        "hits": "function (skill_lv, misc) { return skill_lv; });",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "High Wizard"
+        ]
+    },
+    "401": {
+        "name": "Dangerous Soul Collect",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "402": {
+        "name": "Mind Breaker",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "403": {
+        "name": "Memorize",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Professor"
+        ]
+    },
+    "406": {
+        "name": "Meteor Assault",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Assassin Cross"
+        ]
+    },
+    "407": {
+        "name": "Create Deadly Poison",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "411": {
+        "name": "Running",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Taekwon",
+            "Star Gladiator",
+            "Soul Linker"
+        ]
+    },
+    "412": {
+        "name": "Prepare Whirlwind Kick",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "413": {
+        "name": "Whirlwind Kick",
+        "hits": 3,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": true,
+        "jobs": [
+            "Taekwon",
+            "Star Gladiator"
+        ]
+    },
+    "414": {
+        "name": "Prepare Axe Kick",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "415": {
+        "name": "Axe Kick",
+        "hits": 3,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": true,
+        "jobs": [
+            "Taekwon",
+            "Star Gladiator"
+        ]
+    },
+    "416": {
+        "name": "Prepare Round Kick",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "417": {
+        "name": "Round Kick",
+        "hits": 3,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": true,
+        "jobs": [
+            "Taekwon",
+            "Star Gladiator"
+        ]
+    },
+    "418": {
+        "name": "Prepare Counter Kick",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "419": {
+        "name": "Counter Kick",
+        "hits": 3,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": true,
+        "jobs": [
+            "Taekwon",
+            "Star Gladiator"
+        ]
+    },
+    "420": {
+        "name": "Break Fall",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Taekwon",
+            "Star Gladiator",
+            "Soul Linker"
+        ]
+    },
+    "421": {
+        "name": "Flying Side Kick",
+        "hits": 3,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": true,
+        "jobs": [
+            "Rogue",
+            "Stalker",
+            "Taekwon",
+            "Star Gladiator"
+        ]
+    },
+    "422": {
+        "name": "Peaceful Rest",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "423": {
+        "name": "Enjoyable Rest",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "424": {
+        "name": "Fighting Chant",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Taekwon",
+            "Star Gladiator",
+            "Soul Linker"
+        ]
+    },
+    "425": {
+        "name": "Warm Wind",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "426": {
+        "name": "High Jump",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "427": {
+        "name": "Feeling of the Sun,Moon and Stars",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "428": {
+        "name": "Warmth of the Sun",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "429": {
+        "name": "Warmth of the Moon",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "430": {
+        "name": "Warmth of the Stars",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "431": {
+        "name": "Comfort of the Sun",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Star Gladiator"
+        ]
+    },
+    "432": {
+        "name": "Comfort of the Moon",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Star Gladiator"
+        ]
+    },
+    "433": {
+        "name": "Comfort of the Stars",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Star Gladiator"
+        ]
+    },
+    "434": {
+        "name": "Hatred of the Sun,Moon,and Stars",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "435": {
+        "name": "Anger of the Sun",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Star Gladiator"
+        ]
+    },
+    "436": {
+        "name": "Anger of the Moon",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Star Gladiator"
+        ]
+    },
+    "437": {
+        "name": "Anger of the Stars",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Star Gladiator"
+        ]
+    },
+    "438": {
+        "name": "Blessing of the Sun",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "439": {
+        "name": "Blessing of the Moon",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "440": {
+        "name": "Blessing of the Stars",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "441": {
+        "name": "Demon of the Sun,Moon and Stars",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Star Gladiator"
+        ]
+    },
+    "442": {
+        "name": "Friend of the Sun,Moon and Stars",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "443": {
+        "name": "Knowledge of the Sun,Moon and Stars",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "444": {
+        "name": "Union of the Sun,Moon and Stars",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Star Gladiator"
+        ]
+    },
+    "446": {
+        "name": "Berserk Pitcher",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "459": {
+        "name": "Full Andrenaline Rush",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Blacksmith",
+            "Whitesmith"
+        ]
+    },
+    "462": {
+        "name": "Kaizel",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "463": {
+        "name": "Kaahi",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "464": {
+        "name": "Kaupe",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "465": {
+        "name": "Kaite",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "466": {
+        "name": "Kaina",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Soul Linker"
+        ]
+    },
+    "467": {
+        "name": "Estin",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Soul Linker"
+        ]
+    },
+    "468": {
+        "name": "Estun",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Soul Linker"
+        ]
+    },
+    "469": {
+        "name": "Esma",
+        "hits": "function (skill_lv, misc) { return skill_lv; });",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Soul Linker"
+        ]
+    },
+    "470": {
+        "name": "Eswoo",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "471": {
+        "name": "Eska",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "472": {
+        "name": "Eske",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "480": {
+        "name": "Shield Chain",
+        "hits": 5,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Paladin"
+        ]
+    },
+    "481": {
+        "name": "Mana Recharge",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "High Priest"
+        ]
+    },
+    "482": {
+        "name": "Double Casting",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Professor"
+        ]
+    },
+    "484": {
+        "name": "Gravitation Field",
+        "hits": "function (skill_lv, misc) { return 4 + skill_lv; });",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "High Wizard"
+        ]
+    },
+    "485": {
+        "name": "Cart Termination",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Whitesmith"
+        ]
+    },
+    "486": {
+        "name": "Maximum Power-Thust",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Whitesmith"
+        ]
+    },
+    "489": {
+        "name": "Tarot Card of Fate",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "490": {
+        "name": "Acid Demonstration",
+        "hits": "function (skill_lv, misc) { return skill_lv; });",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Creator"
+        ]
+    },
+    "499": {
+        "name": "Beast Strafing",
+        "hits": 2,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Hunter",
+            "Sniper"
+        ]
+    },
+    "500": {
+        "name": "Flip the Coin",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Gunslinger"
+        ]
+    },
+    "501": {
+        "name": "Fling",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "502": {
+        "name": "Triple Action",
+        "hits": 3,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Gunslinger",
+            "Stalker"
+        ]
+    },
+    "503": {
+        "name": "Bull's Eye",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Gunslinger",
+            "Stalker"
+        ]
+    },
+    "504": {
+        "name": "Madness Canceller",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Gunslinger"
+        ]
+    },
+    "505": {
+        "name": "Adjustment",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Gunslinger"
+        ]
+    },
+    "506": {
+        "name": "Increase Accuracy",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Gunslinger"
+        ]
+    },
+    "507": {
+        "name": "Magical Bullet",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Gunslinger",
+            "Stalker"
+        ]
+    },
+    "508": {
+        "name": "Cracker",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "509": {
+        "name": "Single Action",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Gunslinger"
+        ]
+    },
+    "510": {
+        "name": "Snake Eyes",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Gunslinger"
+        ]
+    },
+    "511": {
+        "name": "Chain Action",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Gunslinger"
+        ]
+    },
+    "512": {
+        "name": "Tracking",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Gunslinger"
+        ]
+    },
+    "513": {
+        "name": "Desperado",
+        "hits": "function (skill_lv, misc) { return [1,1.2,1.6,2,2.4,3,3.6,4,5,6,7,8,9,10][misc]; });",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Gunslinger"
+        ]
+    },
+    "514": {
+        "name": "Piercing Shot",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Gunslinger"
+        ]
+    },
+    "515": {
+        "name": "Rapid Shower",
+        "hits": 5,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": true,
+        "jobs": [
+            "Gunslinger"
+        ]
+    },
+    "516": {
+        "name": "Disarm",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Gunslinger"
+        ]
+    },
+    "517": {
+        "name": "Gatling Fever",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Gunslinger"
+        ]
+    },
+    "518": {
+        "name": "Dust",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Gunslinger"
+        ]
+    },
+    "519": {
+        "name": "Full Buster",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Gunslinger"
+        ]
+    },
+    "520": {
+        "name": "Spread Attack",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Gunslinger"
+        ]
+    },
+    "521": {
+        "name": "Ground Drift",
+        "hits": 5,
+        "isMultiHits": true,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Gunslinger"
+        ]
+    },
+    "522": {
+        "name": "Throwing Practice",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Ninja"
+        ]
+    },
+    "523": {
+        "name": "Throw Shuriken",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Ninja"
+        ]
+    },
+    "524": {
+        "name": "Throw Kunai",
+        "hits": 3,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Ninja"
+        ]
+    },
+    "525": {
+        "name": "Throw Huuma Shuriken",
+        "hits": "function (skill_lv, misc) { return 2 + Math.round(skill_lv / 2); ]",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": true,
+        "jobs": [
+            "Ninja"
+        ]
+    },
+    "526": {
+        "name": "Throw Zeny",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "527": {
+        "name": "Reverse Tatami",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Ninja",
+            "Stalker"
+        ]
+    },
+    "528": {
+        "name": "Mist Slash",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Ninja",
+            "Stalker"
+        ]
+    },
+    "529": {
+        "name": "Shadow Jump",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "530": {
+        "name": "Shadow Slash",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Ninja",
+            "Stalker"
+        ]
+    },
+    "531": {
+        "name": "Cast-off Ciceda Shell",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "532": {
+        "name": "Illusionary Shadow",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Ninja"
+        ]
+    },
+    "533": {
+        "name": "Ninpou Training",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "534": {
+        "name": "Crimson Fire Blossom",
+        "hits": "function (skill_lv, misc) { return skill_lv; });",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Ninja",
+            "Stalker"
+        ]
+    },
+    "535": {
+        "name": "Crimson Fire Formation",
+        "hits": "function (skill_lv, misc) { return Math.round(skill_lv / 2) + 4; });",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Ninja",
+            "Stalker"
+        ]
+    },
+    "536": {
+        "name": "Dragon Fire Formation",
+        "hits": 3,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": true,
+        "jobs": [
+            "Rogue",
+            "Ninja",
+            "Stalker"
+        ]
+    },
+    "537": {
+        "name": "Lightning Spear of Ice",
+        "hits": "function (skill_lv, misc) { return skill_lv + 2; });",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Ninja",
+            "Stalker"
+        ]
+    },
+    "538": {
+        "name": "Water Escape Technique",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "539": {
+        "name": "Falling Ice Pillar",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Ninja",
+            "Stalker"
+        ]
+    },
+    "540": {
+        "name": "Wind Blade",
+        "hits": "function (skill_lv, misc) { return Math.floor(skill_lv / 2) + 1; });",
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Ninja",
+            "Stalker"
+        ]
+    },
+    "541": {
+        "name": "Lightning Crash",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Ninja",
+            "Stalker"
+        ]
+    },
+    "542": {
+        "name": "North Wind",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Ninja",
+            "Stalker"
+        ]
+    },
+    "543": {
+        "name": "Soul",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Ninja"
+        ]
+    },
+    "544": {
+        "name": "Final Strike",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Ninja"
+        ]
+    },
+    "1001": {
+        "name": "Charge Attack",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Knight",
+            "Rogue",
+            "Lord Knight",
+            "Stalker"
+        ]
+    },
+    "1003": {
+        "name": "Sonic Acceleration",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Assassin",
+            "Assassin Cross"
+        ]
+    },
+    "1004": {
+        "name": "Throw Venom Knife",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Assassin",
+            "Rogue",
+            "Assassin Cross",
+            "Stalker"
+        ]
+    },
+    "1005": {
+        "name": "Close Confine",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Rogue",
+            "Stalker"
+        ]
+    },
+    "1009": {
+        "name": "Phantasmic Arrow",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Hunter",
+            "Rogue",
+            "Sniper",
+            "Stalker"
+        ]
+    },
+    "1011": {
+        "name": "Wink of Charm",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": []
+    },
+    "1016": {
+        "name": "Ki Explosion",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Monk",
+            "Champion",
+            "Gunslinger"
+        ]
+    }
+}
