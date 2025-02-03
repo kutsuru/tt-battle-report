@@ -3250,6 +3250,15 @@
         "isConsideredAsSingleHit": false,
         "jobs": []
     },
+    "478": {
+        "name": "Slim Potion Pitcher",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Creator"
+        ]
+    },
     "480": {
         "name": "Shield Chain",
         "hits": 5,
