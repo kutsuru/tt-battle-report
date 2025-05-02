@@ -2849,6 +2849,15 @@
             "Professor"
         ]
     },
+    "404": {
+        "name": "Wall of Fog",
+        "hits": 1,
+        "isMultiHits": false,
+        "isConsideredAsSingleHit": false,
+        "jobs": [
+            "Professor"
+        ]
+    },
     "406": {
         "name": "Meteor Assault",
         "hits": 1,
